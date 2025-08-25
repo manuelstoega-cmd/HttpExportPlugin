@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'info.sigterm.plugins'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.runelite.net' }
+}
+
+dependencies {
+    compileOnly group: 'net.runelite', name: 'client', version: '1.10.0'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
