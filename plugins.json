@@ -1,0 +1,15 @@
+[
+  {
+    "internalName": "http-export",
+    "displayName": "HTTP Full Export",
+    "author": "Manuel",
+    "support": "https://github.com/manuelstoega-cmd/HttpExportPlugin",
+    "description": "Exportiert Spieler, NPC, Inventar und Tick-Daten via HTTP",
+    "tags": ["http","export","json"],
+    "plugins": ["info.sigterm.plugins.httpserver.HttpServerPlugin"],
+    "repoUrl": ".",
+    "version": "1.0.0",
+    "hash": "",
+    "downloadUrl": "plugins/HttpExportPlugin-1.0.0.jar"
+  }
+]
